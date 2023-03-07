@@ -1,0 +1,16 @@
+#topnav {
+    border-color: rgba(34, 34, 34, 0.05);
+    background-color: #64a19d;
+    transition: all 0.35s;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+
+  .jumbotron {
+    background-color: rgb(245, 231, 186);
+    background-size: cover;
+    height: calc(60vh - 25px);
+    align-items: center;
+    justify-content: center;
+    }
