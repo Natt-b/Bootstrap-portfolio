@@ -1,6 +1,5 @@
-#topnav {
-    border-color: rgba(34, 34, 34, 0.05);
-    background-color: #64a19d;
+.nav {
+    border-color: rgba(19, 19, 19, 0.741);
     transition: all 0.35s;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
@@ -8,9 +7,52 @@
   }
 
   .jumbotron {
-    background-color: rgb(236, 234, 232);
-    background-size: cover;
+    background-image: url(../Bootstrap-portfolio/Assets/surf.jpg);
+    background-size:contain;
     height: calc(60vh - 25px);
     align-items: center;
     justify-content: center;
+    padding-bottom: 34px;
     }
+
+    .display-4 {
+      background-color:rgba(184, 135, 11, 0.466);
+    }
+
+    .lead {
+      background-color:rgba(184, 135, 11, 0.466);
+      color: white;
+    }
+  
+  .p {
+    background-color:rgba(184, 135, 11, 0.466);
+    color: white; 
+  }
+   
+.cardset {
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+
+.MyWork{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.crnat{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron2 {
+  background-image: url(../Bootstrap-portfolio/Assets/pineapples.jpg);
+  background-size:cover;
+  height: calc(60vh - 25px);
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  }
