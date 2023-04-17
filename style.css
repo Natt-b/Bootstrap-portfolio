@@ -1,27 +1,36 @@
 .nav {
-    border-color: rgba(19, 19, 19, 0.741);
+    border-color: rgba(26, 26, 26, 0.741);
     transition: all 0.35s;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px;
+    height: calc(15vh - 10px);
+    padding-top: 4px;
+    padding-right: 15px;
   }
 
+  .navbar-brand {
+    display:inline;
+    position:relative;
+    right: 62%;
+    padding-top: 6px;
+  }
+.nav-link{
+  color: rgb(156, 156, 155);
+}
+
   .jumbotron {
-    background-image: url(../Bootstrap-portfolio/Assets/surf.jpg);
-    background-size:contain;
-    height: calc(60vh - 25px);
+    background-color: rgb(205, 211, 211);
+    height: calc(70vh - 25px);
     align-items: center;
     justify-content: center;
+    padding-left: 68px;
     padding-bottom: 34px;
     }
 
-    .display-4 {
-      background-color:rgba(184, 135, 11, 0.466);
-    }
 
     .lead {
-      background-color:rgba(184, 135, 11, 0.466);
-      color: white;
+      color: black;
     }
   
   .p {
@@ -33,6 +42,7 @@
 align-items: center;
 display: flex;
 justify-content: center;
+padding-bottom: 50%;
 }
 
 
@@ -40,6 +50,8 @@ justify-content: center;
   align-items: center;
   display: flex;
   justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 6px;
 }
 
 .crnat{
